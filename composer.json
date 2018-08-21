@@ -1,0 +1,21 @@
+{
+    "name": "fjl/ambassador",
+    "description": "Ambassador PHP Library",
+    "keywords": ["ambassador", "php", "sdk"],
+    "type": "library",
+    "homepage": "https://github.com/jason-pancake/ambassador",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Jason Pancake",
+            "homepage": "https://github.com/jason-pancake"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["lib/"]
+    }
+}
